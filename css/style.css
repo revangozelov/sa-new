@@ -473,8 +473,9 @@ link:focus,
 	z-index: 1;
 }
 .mainlogo img{
-	width: 368px;
-	margin-top: 40px;
+	width: 310px;
+    max-height: 70px;
+    margin-top: 25px;
 }
 
 
@@ -1154,7 +1155,15 @@ footer section
 
 .editor-content img{
 	width: 80%;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	padding: 5px;
 }
+
+  
+.editor-content img:hover {
+	box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+  }
 
 .editor-content .card{
 	margin: 10px;
