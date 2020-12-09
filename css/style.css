@@ -1158,7 +1158,7 @@ footer section
 	width: 100%;
 	border: 1px solid #ddd;
 	border-radius: 4px;
-	padding: 5px;
+
 }
 
   
@@ -1175,7 +1175,7 @@ footer section
 }
 .editor-content h6{
 	margin: 10px;
-	top: 17px;
+
 	position: relative;
 	font-style: normal;
 	font-weight: normal;
