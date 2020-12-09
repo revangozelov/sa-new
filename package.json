@@ -1,6 +1,0 @@
-{
-  "dependencies": {
-    "codemirror": "^5.58.2",
-    "monaco-editor": "^0.21.2"
-  }
-}
