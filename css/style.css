@@ -1143,7 +1143,8 @@ footer section
 --------------------------------------------------------------*/
 .editor-content .card{
 	transition: all .2s;
-	padding: 0 !important;
+	padding-right: 0 !important;
+	padding-left: 0 !important;
 }
 .editor-content .card:hover{
 	transform: scale(1.1);
