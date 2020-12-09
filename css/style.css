@@ -770,7 +770,8 @@ end banner section
 
  }
  .services-content,
- .partner-content{
+ .partner-content,
+ .editor-content{
  	display: flex;
  	justify-content: center;
  }
