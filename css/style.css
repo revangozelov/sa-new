@@ -276,7 +276,7 @@ link:focus,
 	line-height: 1;
 }
 #myCarousel .carousel-item a{background: #FFB800; border-radius: 6px; padding:5px 20px;color: #000000; display:inline-block; }
-#myCarousel .carousel-item a:hover{background:transparent; border: 2px solid #FFB800; color: #FFB800;border-radius: 0px;transition: 1s; text-decoration:none;  }
+#myCarousel .carousel-item a:hover{background:transparent; border: 2px solid #FFB800; color: #FFB800;border-radius: 0px;transition: 0.5s; text-decoration:none;  }
 
 #myCarousel .carousel-item h4 {-webkit-animation-name:fadeInLeft; animation-name:fadeInLeft;} 
 #myCarousel .carousel-item h5{-webkit-animation-name:fadeInLeft; animation-name:fadeInLeft;} 
