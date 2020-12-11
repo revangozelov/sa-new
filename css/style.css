@@ -1142,7 +1142,7 @@ footer section
 # Portfolio
 --------------------------------------------------------------*/
 .editor-content .card{
-	transition: all 0.2s;
+	transition: all 0.2s ;
 	padding-right: 0 !important;
 	padding-left: 0 !important;
 }
@@ -1178,7 +1178,7 @@ footer section
 }
 .editor-content h6{
 	margin: 10px;
-
+    cursor: pointer;
 	position: relative;
 	font-style: normal;
 	font-weight: normal;
