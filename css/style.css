@@ -1142,7 +1142,7 @@ footer section
 # Portfolio
 --------------------------------------------------------------*/
 .editor-content .card{
-	transition: all .2s;
+	transition: all 0.2s;
 	padding-right: 0 !important;
 	padding-left: 0 !important;
 }
