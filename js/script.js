@@ -50,7 +50,12 @@
 	$('.hero-slider').slickAnimation();
 
 
+	
+
 
 
  
 })(jQuery);
+
+
+
