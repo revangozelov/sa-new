@@ -1223,7 +1223,7 @@ ul{
 	left: -20px;
 	z-index: 1000;
 	display: none;
-	min-width: 350px;
+	min-width: 650px;
 	padding: 5px 0;
 	margin: 2px 0 0;
 	font-size: 14px;
@@ -1242,6 +1242,7 @@ ul{
 
 
 }
+
 
 .dropdown-menu h3{
 	margin:0;
