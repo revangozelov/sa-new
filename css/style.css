@@ -779,7 +779,7 @@ end banner section
  .sectionheader h2{
  	font-style: normal;
  	font-weight: bold;
- 	font-size: 30px;
+ 	font-size: 20px;
  	line-height: 42px;
  	text-align: center;
  	position: relative;
@@ -847,6 +847,36 @@ end banner section
  .services-content .card:hover{
  	transform: scale(1.1);
  }
+
+
+ 
+/*--------------------------------------------------------------
+# Features
+--------------------------------------------------------------*/
+.features .icon-box h4 {
+	font-size: 20px;
+	font-weight: 700;
+	margin: 5px 0 10px 60px;
+  }
+  
+  .features .icon-box i {
+	font-size: 48px;
+	float: left;
+	color: #5846f9;
+  }
+  
+  .features .icon-box p {
+	font-size: 15px;
+	color: #848484;
+	margin-left: 60px;
+  }
+  
+  .features .image {
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 400px;
+  }
 
 /*<!-- ********************
  end Services  section
@@ -1072,6 +1102,195 @@ end banner section
 	.menuicon{
 		display: none;
 	}
+
+/*--------------------------------------------------------------
+# entity Diagrams
+--------------------------------------------------------------*/
+#entityDiagram .content h3 {
+	font-weight: 700;
+	font-size: 32px;
+	color: #37517e;
+	font-family: "Poppins", sans-serif;
+  }
+  
+  #entityDiagram .content ul {
+	list-style: none;
+	padding: 0;
+  }
+  
+  #entityDiagram .content ul li {
+	padding-bottom: 10px;
+  }
+  
+  #entityDiagram .content ul i {
+	font-size: 20px;
+	padding-right: 4px;
+	color: #47b2e4;
+  }
+  
+  #entityDiagram .content p:last-child {
+	margin-bottom: 0;
+  }
+  
+  #entityDiagram .progress {
+	height: 60px;
+	display: block;
+	background: none;
+	border-radius: 0;
+  }
+  
+  #entityDiagram .progress .skill {
+	padding: 0;
+	margin: 0 0 6px 0;
+	text-transform: uppercase;
+	display: block;
+	font-weight: 600;
+	font-family: "Poppins", sans-serif;
+	color: #37517e;
+  }
+  
+  #entityDiagram .progress .skill .val {
+	float: right;
+	font-style: normal;
+  }
+  
+  #entityDiagram .progress-bar-wrap {
+	background: #e8edf5;
+	height: 10px;
+  }
+  
+  #entityDiagram .progress-bar {
+	width: 1px;
+	height: 10px;
+	transition: .9s;
+	background-color: #4668a2;
+  }
+
+
+  /*--------------------------------------------------------------
+# Why Us
+--------------------------------------------------------------*/
+#ActivityDiagram .content {
+	padding: 60px 100px 0 100px;
+  }
+  
+  #ActivityDiagram .content h3 {
+	font-weight: 400;
+	font-size: 34px;
+	color: #37517e;
+  }
+  
+  #ActivityDiagram .content h4 {
+	font-size: 20px;
+	font-weight: 700;
+	margin-top: 5px;
+  }
+  
+  #ActivityDiagram .content p {
+	font-size: 15px;
+	color: #848484;
+  }
+  
+  #ActivityDiagram .img {
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center center;
+  }
+  
+  #ActivityDiagram .accordion-list {
+	padding: 0 100px 60px 100px;
+  }
+  
+  #ActivityDiagram .accordion-list ul {
+	padding: 0;
+	list-style: none;
+  }
+  
+  #ActivityDiagram .accordion-list li + li {
+	margin-top: 15px;
+  }
+  
+  #ActivityDiagram .accordion-list li {
+	padding: 20px;
+	background: #fff;
+	border-radius: 4px;
+  }
+  
+  #ActivityDiagram .accordion-list a {
+	display: block;
+	position: relative;
+	font-family: "Poppins", sans-serif;
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 500;
+	padding-right: 30px;
+	outline: none;
+  }
+  
+  #ActivityDiagram .accordion-list span {
+	color: #47b2e4;
+	font-weight: 600;
+	font-size: 18px;
+	padding-right: 10px;
+  }
+  
+  #ActivityDiagram .accordion-list i {
+	font-size: 24px;
+	position: absolute;
+	right: 0;
+	top: 0;
+  }
+  
+  #ActivityDiagram .accordion-list p {
+	margin-bottom: 0;
+	padding: 10px 0 0 0;
+  }
+  
+  #ActivityDiagram .accordion-list .icon-show {
+	display: none;
+  }
+  
+  #ActivityDiagram .accordion-list a.collapsed {
+	color: #343a40;
+  }
+  
+  #ActivityDiagram .accordion-list a.collapsed:hover {
+	color: #47b2e4;
+  }
+  
+  #ActivityDiagram .accordion-list a.collapsed .icon-show {
+	display: inline-block;
+  }
+  
+  #ActivityDiagram .accordion-list a.collapsed .icon-close {
+	display: none;
+  }
+  
+  @media (max-width: 1024px) {
+	#ActivityDiagram .content, #ActivityDiagram .accordion-list {
+	  padding-left: 0;
+	  padding-right: 0;
+	}
+  }
+  
+  @media (max-width: 992px) {
+	#ActivityDiagram .img {
+	  min-height: 400px;
+	}
+	#ActivityDiagram .content {
+	  padding-top: 30px;
+	}
+	#ActivityDiagram .accordion-list {
+	  padding-bottom: 30px;
+	}
+  }
+  
+  @media (max-width: 575px) {
+	#ActivityDiagram .img {
+	  min-height: 200px;
+	}
+  }
+
 /*<!-- ******************
 footer section
 ***************** -->*/

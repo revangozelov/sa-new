@@ -1,3 +1,12 @@
+ // Initiate venobox (lightbox feature used in portofilo)
+ $(document).ready(function() {
+	$('.venobox').venobox({
+	  'share': false
+	});
+  });
+
+ 
+
 $.fn.jQuerySimpleCounter = function( options ) {
 	var settings = $.extend({
 		start:  0,
@@ -88,9 +97,11 @@ $('#number4').jQuerySimpleCounter({end: 246,duration: 2500});
 	});
 	$('.hero-slider').slickAnimation();
 
-
+	 
+ 
 
 
  
 })(jQuery);
+
 
