@@ -1966,8 +1966,16 @@ ul{
 }
  .diagram-section .carousel-inner img {
 
+	height: 85%;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+ .diagram-section .carousel-inner .carousel-item{
+
 	height: 300px;
 	width: 410px;
+
 }
 
 
@@ -1978,14 +1986,13 @@ ul{
     height: 12px;
     background-color: #404040;
 }
-.carousel-indicators li {
-    border-radius: 12px;
-    width: 12px;
-    height: 12px;
-    background-color: #404040;
+.carousel-indicators{
+ 
+	width: 68%;
 }
+
 .carousel-indicators .active {
-    background-color: white;
+    background-color: #034F93;
     max-width: 12px;
     margin: 0 3px;
     height: 12px;
