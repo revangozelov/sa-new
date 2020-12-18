@@ -1971,12 +1971,7 @@ ul{
 	margin-left: auto;
 	margin-right: auto;
 }
- .diagram-section .carousel-inner .carousel-item{
 
-	height: 300px;
-	width: 410px;
-
-}
 
 
 
@@ -1984,7 +1979,7 @@ ul{
     border-radius: 12px;
     width: 12px;
     height: 12px;
-    background-color: #404040;
+    background-color: rgba(156, 156, 156, 0.712);
 }
 .carousel-indicators{
  
@@ -1992,12 +1987,13 @@ ul{
 }
 
 .carousel-indicators .active {
-    background-color: #034F93;
+    background-color: rgb(94, 92, 92);
     max-width: 12px;
     margin: 0 3px;
     height: 12px;
 }
 .carousel-control-prev-icon {
+	color: grey;
  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
 }
 
