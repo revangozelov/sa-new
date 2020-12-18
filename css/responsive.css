@@ -17,8 +17,8 @@ RESPONSIVE
     height: 100px;
     margin-top: -18px;
 }.mainlogo img {
-    width: 262px;
-    margin-top: 27px;
+	width: 250px;
+    margin-top: 10px;
 }
 .right-line:after{
 	display: none;
@@ -106,7 +106,7 @@ RESPONSIVE
 
 @media (max-width: 767px){
 .mainlogo img {
-	width: 200px;
+	width: 180px;
 }
 
 
@@ -149,7 +149,7 @@ RESPONSIVE
     position: relative;
    }
    .mainlogo img {
-   	margin-top: 25px;
+   	margin-top: 10px;
    }
 .main{
 	top: 0px;
