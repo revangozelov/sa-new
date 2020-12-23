@@ -1962,7 +1962,7 @@ ul{
     border-radius: .28571429rem;
 	box-shadow: 0 5px 9px 0 #d4d4d5, 0 0 0 1px #d4d4d5;
 	margin-top:20px;
-	min-height: 350px;
+	
 }
  .diagram-section .carousel-inner img {
 
@@ -1970,8 +1970,7 @@ ul{
 	width: 80%;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: auto;
-	margin-bottom: auto;
+	
 }
  .diagram-section .carousel-inner {
 
