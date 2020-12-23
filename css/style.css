@@ -852,29 +852,113 @@ end banner section
 /*--------------------------------------------------------------
 # Features
 --------------------------------------------------------------*/
-.features .icon-box h4 {
-	font-size: 20px;
-	font-weight: 700;
-	margin: 5px 0 10px 60px;
+h1.team-h1 {
+	margin: 0;
+	position: absolute;
+	top: -16px;
+	text-align: center;
+	left: 40%;
+	font-family: georgia;
+	font-style: italic;
+	background-color: white;
+	padding: 0px 20px;
+	color: #222; 
   }
   
-  .features .icon-box i {
-	font-size: 48px;
+  .cf:before,
+  .cf:after {
+	  content: " "; /* 1 */
+	  display: table; /* 2 */
+  }
+  
+  .cf:after {
+	  clear: both;
+  }
+  
+  /**
+   * For IE 6/7 only
+   * Include this rule to trigger hasLayout and contain floats.
+   */
+  .cf {
+	  *zoom: 1;
+  }
+  
+  .team-container {
+	max-width: 1000px;
+	margin: auto;
+	border-top: 1px #e9e9e9 solid;
+	border-bottom: 1px #e9e9e9 solid;
+	padding-top: 5em;
+	padding-bottom: 5em;
+	margin-top: 3em;
+	position: relative;
+  }
+  
+  .team-member {
+
 	float: left;
-	color: #5846f9;
+	text-align: center;
+	position: relative;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    border-radius: 5px;
+    background: #fff;
+	transition: 0.5s;
+	margin-bottom: 10px;
+	
   }
   
-  .features .icon-box p {
-	font-size: 15px;
-	color: #848484;
-	margin-left: 60px;
+  .team-member:last-child {margin-right: 0;}
+  
+  
+  .team-member span,
+  .team-member h3 {
+
+	font-family: sans-serif;
+	letter-spacing: -1px;
   }
   
-  .features .image {
-	background-position: center center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	min-height: 400px;
+  .team-member h3 {
+	color: #1CA3A3;
+  }
+  
+  .email {
+	color: #EA2678;
+	
+  }
+  
+  .team-member span {
+	display: block;
+   
+  }
+  .team-photo {
+
+	text-align: center;
+	margin: auto;
+	max-width: 100%;
+	height: auto;
+	transition: 0.1s transform ease-in-out;
+	box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+	margin-bottom: 20px;
+  }
+  
+  
+  .team-photo:hover {
+	transform: scale(1.2);
+	cursor: pointer;
+  }
+  
+  
+  /* code for phone layout */
+  @media (max-width:850px){
+	.team-member {
+	  width:25%;
+	  margin-left: 4%;
+	  margin-right: 4%;
+	  margin-bottom: 40px;
+	  
+	}
+	
   }
 
 /*<!-- ********************
