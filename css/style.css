@@ -235,7 +235,7 @@ link:focus,
 	color: #ffffff;
 }
 .main-description h5 span{
-	color: red;
+	color: lightsalmon;
 	font-size: 35px;
 }
 .main-description p{
@@ -473,9 +473,8 @@ link:focus,
 	z-index: 1;
 }
 .mainlogo img{
-	width: 310px;
-    max-height: 70px;
-    margin-top: 25px;
+	max-height: 93px;
+    margin-top: 10px;
 }
 
 
