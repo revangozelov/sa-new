@@ -1727,6 +1727,7 @@ ul{
 	margin:0;
 	font-size:15px;
 	font-weight:normal;
+	text-align: center;
 }
 .dropdown-menu:before{
 	position: absolute;
