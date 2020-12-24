@@ -680,6 +680,12 @@ start banner section
 .banner-box-description-row{
 	margin-top: -100px;
 }
+.banner-box-description-row img{
+   
+	width: 100%;
+	height: 100%;
+	margin: auto;
+}
 .blackBanner h4{
 	font-style: normal;
 	font-weight: bold;
@@ -718,6 +724,16 @@ start banner section
 	background: transparent;
 	padding: 30px;
 	border: none;
+}
+.banner-box-description-2{
+	position: relative;
+	top:203px;
+	background: transparent;
+	padding: 30px;
+	border: none;
+}
+.banner-box-description-2 .card-title{
+	color: #ffffff !important;
 }
 .banner-box-description-2 h5,
 .banner-box-description-2 a{
