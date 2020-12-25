@@ -2052,6 +2052,11 @@ ul{
     box-shadow: none;
      
 }
+.card-block .card-title{
+    font-size: 4em;
+    
+     
+}
  .diagram-section .card {
     font-size: 1em;
     overflow: hidden;
