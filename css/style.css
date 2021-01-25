@@ -2053,8 +2053,8 @@ ul{
      
 }
 .card-block .card-title{
-    font-size: 4em;
-    
+    font-size: 40px;
+	vertical-align: baseline;
      
 }
  .diagram-section .card {
